@@ -22,7 +22,7 @@ To demonstrate various image and video processing and applications using OpenCV 
 
 * The latest OpenCV version with C++ API can be downloaded from [opencv.org](https://opencv.org/releases/).
 
-* Step by step detailed instructions of configuaring the latest download OpenCv for Windows version (OpenCV – 4.5.1) for Visual Studio 2019 Project (Microsoft Visual Studio Community 2019 Version 16.9.0) can be found here [here](https://medium.com/@subwaymatch/opencv-410-with-vs-2019-3d0bc0c81d96)
+* Step by step detailed instructions of configuaring the latest download OpenCv for Windows version (OpenCV – 4.5.1) for Visual Studio 2019 Project (Microsoft Visual Studio Community 2019 Version 16.9.0) can be found: [here](https://medium.com/@subwaymatch/opencv-410-with-vs-2019-3d0bc0c81d96)
 
 ## 3. Image Processing 
 
@@ -48,19 +48,19 @@ We shall use the commonly used input image of Lena, as illustrated next.
 <table>
   <tr>
     <td> Homogeneous Blur </td>
-    <td> <img src="figures/estimated-background-method-1-frame-1.jpg" width="500"  ></td>
+    <td> <img src="figures/lena_homogeneous_blur_filter_size_11x11.jpg" width="500"  ></td>
    </tr> 
    <tr>
     <td> Gaussian Blur </td>
-    <td> <img src="figures/estimated-background-method-2-frame-100.jpg" width="500"  ></td>
+    <td> <img src="figures/lena_gaussian_blur_filter_size_11x11.jpg" width="500"  ></td>
   </tr>
   <tr>
     <td> Median Blur </td>
-    <td> <img src="figures/estimated-background-method-3-frame-100.jpg" width="500"  ></td>
+    <td> <img src="figures/lena_median_blur_filter_size_11x11.jpgg" width="500"  ></td>
   </tr>
   <tr>
     <td> Box Filter Blur </td>
-    <td> <img src="figures/estimated-background-method-4-frame-100.jpg" width="500"  ></td>
+    <td> <img src="figures/lena_boxFilter_blur_filter_size_11x11.jpg" width="500"  ></td>
   </tr>
 </table>
 

@@ -26,9 +26,9 @@ In this section, we shall illustrate the output of several basic image processin
 
 ### 3.4 Edge Detection
 
-### 3.6 Color Space Conversion
+### 3.5 Color Space Conversion
 
-### 3.5 Features Detection
+### 3.6 Features Detection
 
 ### 3.7 Image Blending
 

@@ -12,11 +12,31 @@ To demonstrate various image and video processing and applications using OpenCV 
 
 ## 3. Image Processing 
 
+In this section, we shall illustrate the output of several basic image processing OpenCV built-in functionalties. 
+
+### 3.1 Loading, Visualizing and Saving Images
+
+### 3.2 Image Filtering
+
+#### 3.2.1 Image Smoothing 
+
+#### 3.2.2 Image Denoising
+
+### 3.3 Image thresholding
+
+### 3.4 Edge Detection
+
+### 3.6 Color Space Conversion
+
+### 3.5 Features Detection
+
+### 3.7 Image Blending
+
 
 ## 4. Image Processing using Track Bar User Interface
 
 
-## 5. Video processing
+## 5. Live Video Stream Processing
 
 
 ## 6. Project: Face Detection, Tracking and Recognition

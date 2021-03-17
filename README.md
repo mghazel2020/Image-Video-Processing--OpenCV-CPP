@@ -56,7 +56,7 @@ We shall use the commonly used input image of Lena, as illustrated next.
   </tr>
   <tr>
     <td> Median Blur </td>
-    <td> <img src="figures/lena_median_blur_filter_size_11x11.jpgg" width="500"  ></td>
+    <td> <img src="figures/lena_median_blur_filter_size_11x11.jpg" width="500"  ></td>
   </tr>
   <tr>
     <td> Box Filter Blur </td>

@@ -104,7 +104,7 @@ OpenCV offers the function threshold to perform thresholding operations. We can 
 
 The results of the image thresholding are alearly sensitive to the type of applied threshold operation and the value of the selected threshold value. In order to experment with the different combinations of the thresholding type and value, OpenCV allow us to create TrackBar User Interface, which allows the user to select these paramaters settings and automatically generate and display the thresholding results correcting to the user selcted settings.
 
-
+The figure below illustrates the results for the different thresholding operations, uwing a fixed threshold value of 100.
 <table>
   <tr>
     <td> Thresholding Method </td>

@@ -8,14 +8,19 @@ To demonstrate various image and video processing and applications using OpenCV 
 
 |#                 | File name         |  Description 
 |------------------|-------------------|--------------------|
-|1                 | /code/demo_3_1.cpp      |Implementation the visualizing, loading and saving images.  |
-|1                 | /code/demo_3_2_1.cpp      |  |
-|1                 | /code/demo_3_2_2.cpp      | |
-|1                 | /code/demo_3_3.cpp      |  |
-|1                 | /code/demo_3_4.cpp      |  |
-|1                 | /code/demo_3_5.cpp      | |
-|1                 | /code/demo_3_6.cpp      |  |
-|1                 | /code/demo_3_7.cpp      |  |
+|1                 | /code/demo_3_1.cpp      |OpenCV-C++-API Implementation of the functionalities for the visualizing, loading and saving images.  |
+|2                 | /code/demo_3_2.cpp      |OpenCV-C++-API Implementation of the functionalities for smoothing images |
+|3                 | /code/demo_3_3.cpp    |OpenCV-C++-API Implementation of the functionalities for denoising images |
+|4                 | /code/demo_3_4.cpp      |OpenCV-C++-API Implementation of the functionalities for thresholding images  |
+|5                 | /code/demo_3_5.cpp      |OpenCV-C++-API Implementation of the functionalities for detecting edges in images  |
+|6                 | /code/demo_3_6.cpp      |OpenCV-C++-API Implementation of the functionalities for converting images to different color spaces.|
+|7                 | /code/demo_3_7.cpp      |OpenCV-C++-API Implementation of the functionalities for blending images  |
+|8                 | /code/demo_3_8.cpp      |OpenCV-C++-API Implementation of the functionalities for detecting features from images  |
+|9                 | /code/demo_3_9.cpp      |OpenCV-C++-API Implementation of the functionalities for blending two images together. |
+|10                 | /code/demo_4.cpp      |OpenCV-C++-API Implementation of the functionalities for developing a track bar User Interface (UI) for image processing and user parameters selections  |
+|11                 | /code/demo_5.cpp      |OpenCV-C++-API Implementation of the functionalities for live video stream processing |
+|------------------|-------------------|--------------------|
+|12                 | /code/demo_6.cpp      |OpenCV-C++-API Implementation of the functionalities of a Project: Face Detection, Tracking and Recognition |
 
 
 ## 2. OpenCV Installation and Visual Studio Project Setup

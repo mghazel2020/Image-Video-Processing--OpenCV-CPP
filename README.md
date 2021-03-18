@@ -83,8 +83,8 @@ We explored the performnce of the following OpenCV built-in image denoising a;lg
     <td> <img src="figures/input_img_BILATERAL FILTERING_filter_size_21x21.jpg" width="500"  ></td>
   </tr>
   <tr>
-    <td> Median Blur </td>
-    <td> <img src="figures/input_img_NON_LOCAL_MEANS FILTERING_filter_size_101x101" width="500"  ></td>
+    <td> Non-Local Means Filter </td>
+    <td> <img src="figures/input_img_ NON_LOCAL_MEANS_FILTERING_filter_size_101x101.jpg" width="500"  ></td>
   </tr>
 </table>
 

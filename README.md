@@ -138,9 +138,42 @@ The figure below illustrates the results for the different thresholding operatio
   </tr>
 </table>
 
-
-
 ### 3.5 Edge Detection
+
+The Canny Edge detector is a commonly used edge detector and aims to satisfy three main criteria:
+
+* Low error rate: Meaning a good detection of only existent edges.
+* Good localization: The distance between edge pixels detected and real edge pixels have to be minimized.
+* Minimal response: Only one detector response per edge.
+
+The Canny Edge detector has several configuration paramater, we identifed the following critical parameter in order to experement with it varying its value and observing the performance of teh edge detector for different values.
+
+* threshold1 – first minimumpixel value threshold for the hysteresis procedure.
+
+The figure below illustrates the Canny edge detection results for the different thresholding values.
+<table>
+  <tr>
+    <td> Threshold Value</td>
+    <td> Canny Edge Detection Results</td>
+   </tr> 
+   <tr>
+    <td> 0</td>
+    <td> <img src="figures/Edge_Detection_Min_Threshod_00.JPG" width="500"  ></td>
+  </tr>
+  <tr>
+    <td> 100</td>
+    <td> <img src="figures/Edge_Detection_Min_Threshod_25.JPG" width="500"  ></td>
+  </tr>
+  <tr>
+    <td> 100</td>
+    <td> <img src="figures/Edge_Detection_Min_Threshod_50.JPG" width="500"  ></td>
+  </tr>
+  <tr>
+    <td> 100</td>
+    <td> <img src="figures/Edge_Detection_Min_Threshod_100.JPG" width="500"  ></td>
+  </tr>
+</table>
+
 
 ### 3.6 Color Space Conversion
 

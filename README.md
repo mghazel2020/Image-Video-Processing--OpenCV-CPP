@@ -94,6 +94,14 @@ We explored the performnce of the following OpenCV built-in image denoising a;lg
 
 ### 3.4 Image thresholding
 
+OpenCV offers the function threshold to perform thresholding operations.We can effectuate 5 types of Thresholding operations with this function, as illuatred [here](https://www.docs.opencv.org/2.4/doc/tutorials/imgproc/threshold/threshold.html?highlight=basic%20thresholding%20operations). 
+
+The results of the thresholding are sensitive to the type of applied threshold operation and the value of the selected threshold value. In order to experment with the different combinations of the thresholding type and value, OpenCV allow us to create TrackBar User Interface, which allows the user to select these paramaters settings and automatically generate and display the thresholding results correcting to the user selcted settings.
+
+
+
+
+
 ### 3.5 Edge Detection
 
 ### 3.6 Color Space Conversion

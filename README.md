@@ -253,7 +253,7 @@ In many applications, the RGB color space may not be suitable and a color conver
   </tr>
   <tr>
     <td> CIELAB</td>
-    <td> <img src="figures/lena_hsv.jpg" height="400"  ></td>
+    <td> <img src="figures/lena_lab.jpg" height="400"  ></td>
   </tr>
    <tr>
     <td> YCrCb</td>

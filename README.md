@@ -262,9 +262,29 @@ In many applications, the RGB color space may not be suitable and a color conver
 </table>
 
 
-
-
 ## 4. Live Video Stream Processing
+
+OpenCV also allows for live video capturing and processing from a connected camera, such as the computer camera. Omce a frame is captured, it can be processing individually as an image using tupical image processing operations, as illustrated next.
+
+<table>
+   <tr>
+    <td> Captured Frame</td>
+    <td> <img src="figures/frame-original-0.jpg" height="400"  ></td>
+  </tr>
+  <tr>
+    <td> After GRAYSCALE converion</td>
+    <td> <img src="figures/frame-gray-0.jpg" height="400"  ></td>
+  </tr>
+  <tr>
+    <td> After Gaussian Blurring</td>
+    <td> <img src="figures/frame-blurred-0.jpg" height="400"  ></td>
+  </tr>
+  <tr>
+    <td> After Canny Edge Detection</td>
+    <td> <img src="figures/frame-edges-0.jpg" height="400"  ></td>
+  </tr>
+</table>
+
 
 
 ## 5. Project: Face Detection, Tracking and Recognition

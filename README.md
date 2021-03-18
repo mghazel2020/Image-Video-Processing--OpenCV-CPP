@@ -94,11 +94,48 @@ We explored the performnce of the following OpenCV built-in image denoising a;lg
 
 ### 3.4 Image thresholding
 
-OpenCV offers the function threshold to perform thresholding operations.We can effectuate 5 types of Thresholding operations with this function, as illuatred [here](https://www.docs.opencv.org/2.4/doc/tutorials/imgproc/threshold/threshold.html?highlight=basic%20thresholding%20operations). 
+OpenCV offers the function threshold to perform thresholding operations. We can effectuate 5 types of Thresholding operations with this function, as illuatred [here](https://www.docs.opencv.org/2.4/doc/tutorials/imgproc/threshold/threshold.html?highlight=basic%20thresholding%20operations):
 
-The results of the thresholding are sensitive to the type of applied threshold operation and the value of the selected threshold value. In order to experment with the different combinations of the thresholding type and value, OpenCV allow us to create TrackBar User Interface, which allows the user to select these paramaters settings and automatically generate and display the thresholding results correcting to the user selcted settings.
+* Threshold binary
+* Threshold binary, inverted
+* Truncate
+* Threshold to zero
+* Threshold to Zero, inverted.
+
+The results of the image thresholding are alearly sensitive to the type of applied threshold operation and the value of the selected threshold value. In order to experment with the different combinations of the thresholding type and value, OpenCV allow us to create TrackBar User Interface, which allows the user to select these paramaters settings and automatically generate and display the thresholding results correcting to the user selcted settings.
 
 
+<table>
+  <tr>
+    <td> Thresholding Method </td>
+    <td> Thresholding Value</td>
+    <td> Thresholding Results</td>
+   </tr> 
+   <tr>
+    <td>Threshold Binary</td>
+    <td> 100</td>
+    <td> <img src="figures/Threshod_method_0_value_100.JPG" width="500"  ></td>
+  </tr>
+  <tr>
+    <td>Threshold Binary, Inverted</td>
+    td> 100</td>
+    <td> <img src="figures/Threshod_method_1_value_100.JPG" width="500"  ></td>
+  </tr>
+  <tr>
+    <td>Truncate</td>
+    <td> 100</td>
+    <td> <img src="figures/Threshod_method_2_value_100.JPG" width="500"  ></td>
+  </tr>
+  <tr>
+    <td>Threshold to Zero</td>
+   <td> 100</td>
+    <td> <img src="figures/Threshod_method_3_value_100.JPG" width="500"  ></td>
+  </tr>
+  <tr>
+    <td>Threshold to Zero, Inverted</td>
+    <td> <img src="figures/Threshod_method_4_value_100.JPG" width="500"  ></td>
+  </tr>
+</table>
 
 
 

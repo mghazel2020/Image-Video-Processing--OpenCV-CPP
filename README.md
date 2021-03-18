@@ -19,7 +19,6 @@ To demonstrate various image and video processing and applications using OpenCV 
 |9                 | /code/demo_3_9.cpp      |OpenCV-C++-API Implementation of the functionalities for blending two images together. |
 |10                 | /code/demo_4.cpp      |OpenCV-C++-API Implementation of the functionalities for developing a track bar User Interface (UI) for image processing and user parameters selections  |
 |11                 | /code/demo_5.cpp      |OpenCV-C++-API Implementation of the functionalities for live video stream processing |
-|------------------|-------------------|--------------------|
 |12                 | /code/demo_6.cpp      |OpenCV-C++-API Implementation of the functionalities of a Project: Face Detection, Tracking and Recognition |
 
 

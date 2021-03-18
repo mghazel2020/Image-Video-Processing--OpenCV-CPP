@@ -186,7 +186,24 @@ In this section, we shall illustrate the detection of threel image features that
 
 ### 3.6.1  Line Detection
 
+Lines are important image features and the need for their detection rises in several applications. The figure below illustrates the result of the line deiection using Hough Transform function built-in OpenCV.
+
+<div class="row">
+  <div class="column">
+    <img align="center" height="400" src="sigures/line_detection_results.jpg">
+  </div>
+</div>
+
+
 ### 3.6.2  Circle Detection
+
+Circles are also important image features and the need for their detection rises in several applications. The figure below illustrates the result of the circle deiection using Hough Transform function built-in OpenCV.
+
+<div class="row">
+  <div class="column">
+    <img align="center" height="400" src="sigures/circle_detection_results.jpg">
+  </div>
+</div>
 
 ### 3.6.3  Corner Detection
 

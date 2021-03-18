@@ -158,19 +158,19 @@ The figure below illustrates the Canny edge detection results for the different 
    </tr> 
    <tr>
     <td> 0</td>
-    <td> <img src="figures/Edge_Detection_Min_Threshod_00.JPG" width="500"  ></td>
+    <td> <img src="figures/Edge_Detection_Min_Threshod_00.JPG" height="400"  ></td>
+  </tr>
+  <tr>
+    <td> 25</td>
+    <td> <img src="figures/Edge_Detection_Min_Threshod_25.JPG" height="400"  ></td>
+  </tr>
+  <tr>
+    <td>50</td>
+    <td> <img src="figures/Edge_Detection_Min_Threshod_50.JPG" height="400"  ></td>
   </tr>
   <tr>
     <td> 100</td>
-    <td> <img src="figures/Edge_Detection_Min_Threshod_25.JPG" width="500"  ></td>
-  </tr>
-  <tr>
-    <td> 100</td>
-    <td> <img src="figures/Edge_Detection_Min_Threshod_50.JPG" width="500"  ></td>
-  </tr>
-  <tr>
-    <td> 100</td>
-    <td> <img src="figures/Edge_Detection_Min_Threshod_100.JPG" width="500"  ></td>
+    <td> <img src="figures/Edge_Detection_Min_Threshod_100.JPG" height="400"  ></td>
   </tr>
 </table>
 

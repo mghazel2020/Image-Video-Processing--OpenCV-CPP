@@ -118,7 +118,7 @@ The results of the image thresholding are alearly sensitive to the type of appli
   </tr>
   <tr>
     <td>Threshold Binary, Inverted</td>
-    td> 100</td>
+    <td> 100</td>
     <td> <img src="figures/Threshod_method_1_value_100.JPG" width="500"  ></td>
   </tr>
   <tr>
@@ -128,11 +128,12 @@ The results of the image thresholding are alearly sensitive to the type of appli
   </tr>
   <tr>
     <td>Threshold to Zero</td>
-   <td> 100</td>
+    <td> 100</td>
     <td> <img src="figures/Threshod_method_3_value_100.JPG" width="500"  ></td>
   </tr>
   <tr>
     <td>Threshold to Zero, Inverted</td>
+    <td> 100</td>
     <td> <img src="figures/Threshod_method_4_value_100.JPG" width="500"  ></td>
   </tr>
 </table>

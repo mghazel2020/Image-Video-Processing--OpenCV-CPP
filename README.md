@@ -174,24 +174,54 @@ The figure below illustrates the Canny edge detection results for the different 
   </tr>
 </table>
 
+### 3.6 Features Detection
 
-### 3.6 Color Space Conversion
+In computer vision, usually we need to find matching points between different frames of an environment. Why? If we know how two images relate to each other, we can use both images to extract information of them. When we say matching points we are referring, in a general sense, to characteristics in the scene that we can recognize easily. We call these characteristics features.
 
-### 3.7 Features Detection
+In this section, we shall illustrate the detection of threel image features that uniquely recognizable:
 
-### 3.8 Image Blending
+* Straight lines
+* Circles
+* Corners
+
+### 3.6.1  Line Detection
+
+### 3.6.2  Circle Detection
+
+### 3.6.3  Corner Detection
+
+Corners can be detected using the Harris corner detector in OpenCV. We created a Bar Tracker to allow us to filter out the corner detection results based on thier magniture. Only detection vectors with magnitures larger the user selected threshold are display. The figure below illustrates sample results with different user selected threshold values.
+
+<table>
+  <tr>
+    <td> Threshold Value</td>
+    <td> Corner Detection Results</td>
+   </tr> 
+   <tr>
+    <td> 150</td>
+    <td> <img src="figures/Corner_detection_threshold_150.JPG" height="400"  ></td>
+  </tr>
+  <tr>
+    <td> 200</td>
+    <td> <img src="figures/Corner_detection_threshold_200.JPG.JPG" height="400"  ></td>
+  </tr>
+</table>
 
 
-## 4. Image Processing using Track Bar User Interface
 
 
-## 5. Live Video Stream Processing
+
+### 3.7 Color Space Conversion
+
+### 3.8 Features Detection
+
+## 4. Live Video Stream Processing
 
 
-## 6. Project: Face Detection, Tracking and Recognition
+## 5. Project: Face Detection, Tracking and Recognition
 
 
-## 7. Conclusion
+## 6. Conclusion
 
 
 

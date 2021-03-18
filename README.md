@@ -39,7 +39,7 @@ We shall use the commonly used input image of Lena, as illustrated next.
 
 <div class="row">
   <div class="column">
-    <img align="center" width="400" src="images/lena.jpg">
+    <img align="center" height="300" src="images/lena.jpg">
   </div>
 </div>
 
@@ -59,15 +59,15 @@ We explored the performnce of the following OpenCV built-in image smoothing a;lg
    </tr> 
    <tr>
     <td> Gaussian Blur </td>
-    <td> <img src="figures/lena_gaussian_blur_filter_size_11x11.jpg" height="400"  ></td>
+    <td> <img src="figures/lena_gaussian_blur_filter_size_11x11.jpg" height="300"  ></td>
   </tr>
   <tr>
     <td> Median Blur </td>
-    <td> <img src="figures/lena_median_blur_filter_size_11x11.jpg" height="400"  ></td>
+    <td> <img src="figures/lena_median_blur_filter_size_11x11.jpg" height="300"  ></td>
   </tr>
   <tr>
     <td> Box Filter Blur </td>
-    <td> <img src="figures/lena_boxFilter_blur_filter_size_11x11.jpg" height="400"  ></td>
+    <td> <img src="figures/lena_boxFilter_blur_filter_size_11x11.jpg" height="300"  ></td>
   </tr>
 </table>
 

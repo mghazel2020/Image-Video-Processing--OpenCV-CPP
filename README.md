@@ -203,7 +203,7 @@ Corners can be detected using the Harris corner detector in OpenCV. We created a
   </tr>
   <tr>
     <td> 200</td>
-    <td> <img src="figures/Corner_detection_threshold_200.JPG.JPG" height="400"  ></td>
+    <td> <img src="figures/Corner_detection_threshold_200.JPG" height="400"  ></td>
   </tr>
 </table>
 

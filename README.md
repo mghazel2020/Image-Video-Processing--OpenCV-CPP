@@ -40,11 +40,14 @@ We shall use the commonly used input image of Lena, as illustrated next.
 </div>
 
 
-### 3.2 Image Filtering
+#### 3.2 Image Smoothing 
 
-#### 3.2.1 Image Smoothing 
+We explored the performnce of the following OpenCV built-in image smoothing a;lgorithms:
+* Homogenous bluring
+* Gaussian blurring
+* Median blurring
+* Box filter bluring.
 
-    
 <table>
   <tr>
     <td> Homogeneous Blur </td>
@@ -64,19 +67,36 @@ We shall use the commonly used input image of Lena, as illustrated next.
   </tr>
 </table>
 
+#### 3.3 Image Denoising
 
+We explored the performnce of the following OpenCV built-in image denoising a;lgorithms:
+* Bilateral filtering
+* Non-local means filtering.
 
-#### 3.2.2 Image Denoising
+<table>
+  <tr>
+    <td> Noisy Image </td>
+    <td> <img src="figures/original_noisy_image.jpg" width="500"  ></td>
+   </tr> 
+   <tr>
+    <td> Bilateral Filter </td>
+    <td> <img src="figures/input_img_BILATERAL FILTERING_filter_size_21x21.jpg" width="500"  ></td>
+  </tr>
+  <tr>
+    <td> Median Blur </td>
+    <td> <img src="figures/input_img_NON_LOCAL_MEANS FILTERING_filter_size_101x101" width="500"  ></td>
+  </tr>
+</table>
 
-### 3.3 Image thresholding
+### 3.4 Image thresholding
 
-### 3.4 Edge Detection
+### 3.5 Edge Detection
 
-### 3.5 Color Space Conversion
+### 3.6 Color Space Conversion
 
-### 3.6 Features Detection
+### 3.7 Features Detection
 
-### 3.7 Image Blending
+### 3.8 Image Blending
 
 
 ## 4. Image Processing using Track Bar User Interface

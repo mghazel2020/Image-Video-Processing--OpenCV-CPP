@@ -225,12 +225,44 @@ Corners can be detected using the Harris corner detector in OpenCV. We created a
 </table>
 
 
-
-
-
 ### 3.7 Color Space Conversion
 
-### 3.8 Features Detection
+In many applications, the RGB color space may not be suitable and a color conversion will have to be applied to transform an RGB image to another color space. Next, we demonstrate the following commonly encountered color conversions oprations:
+
+* RGB to GRAY
+* RGB to HSV
+* RGB to CIELAB
+* RGB to YrCB.
+
+<table>
+  <tr>
+    <td> Color SPace</td>
+    <td> Image</td>
+   </tr> 
+   <tr>
+    <td> RGB</td>
+    <td> <img src="figures/lena_rgb.jpg" height="400"  ></td>
+  </tr>
+  <tr>
+    <td> GRAY</td>
+    <td> <img src="figures/lena_gray.jpg" height="400"  ></td>
+  </tr>
+  <tr>
+    <td> HSV</td>
+    <td> <img src="figures/lena_hsv.jpg" height="400"  ></td>
+  </tr>
+  <tr>
+    <td> CIELAB</td>
+    <td> <img src="figures/lena_hsv.jpg" height="400"  ></td>
+  </tr>
+   <tr>
+    <td> YCrCb</td>
+    <td> <img src="figures/lena_ycrcb.jpg" height="400"  ></td>
+  </tr>
+</table>
+
+
+
 
 ## 4. Live Video Stream Processing
 

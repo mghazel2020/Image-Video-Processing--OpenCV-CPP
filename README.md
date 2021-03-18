@@ -190,7 +190,7 @@ Lines are important image features and the need for their detection rises in sev
 
 <div class="row">
   <div class="column">
-    <img align="center" height="400" src="sigures/line_detection_results.jpg">
+    <img align="center" height="400" src="figures/line_detection_results.jpg">
   </div>
 </div>
 
@@ -201,7 +201,7 @@ Circles are also important image features and the need for their detection rises
 
 <div class="row">
   <div class="column">
-    <img align="center" height="400" src="sigures/circle_detection_results.jpg">
+    <img align="center" height="400" src="figures/circle_detection_results.jpg">
   </div>
 </div>
 

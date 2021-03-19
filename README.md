@@ -44,51 +44,51 @@ We shall use the commonly used input image of Lena, as illustrated next.
 </div>
 
 
-#### 3.2 Image Smoothing 
+#### 3.2 Image Smoothing and Denoising 
 
 We explored the performnce of the following OpenCV built-in image smoothing a;lgorithms:
 * Homogenous bluring
 * Gaussian blurring
 * Median blurring
-* Box filter bluring.
-
-<table>
-  <tr>
-    <td> Homogeneous Blur </td>
-    <td> <img src="figures/lena_homogeneous_blur_filter_size_11x11.jpg" height="300"  ></td>
-   </tr> 
-   <tr>
-    <td> Gaussian Blur </td>
-    <td> <img src="figures/lena_gaussian_blur_filter_size_11x11.jpg" height="300"  ></td>
-  </tr>
-  <tr>
-    <td> Median Blur </td>
-    <td> <img src="figures/lena_median_blur_filter_size_11x11.jpg" height="300"  ></td>
-  </tr>
-  <tr>
-    <td> Box Filter Blur </td>
-    <td> <img src="figures/lena_boxFilter_blur_filter_size_11x11.jpg" height="300"  ></td>
-  </tr>
-</table>
-
-#### 3.3 Image Denoising
-
-We explored the performnce of the following OpenCV built-in image denoising a;lgorithms:
+* Box filter bluring
 * Bilateral filtering
 * Non-local means filtering.
 
 <table>
   <tr>
+    <td> Image </td>
+    <td> Filter Size</td>
+    <td> Smoothed/Denoised Image</td>
+   </tr> 
+  <tr>
     <td> Noisy Image </td>
-    <td> <img src="figures/original_noisy_image.jpg" width="500"  ></td>
+    <td>  </td>
+    <td> <img src="figures/original_noisy_image.jpg" height="300"  ></td>
+   </tr> 
+  <tr>
+    <td> Homogeneous Blur </td>
+    <td> 5x5 </td>
+    <td> <img src="figures/selected_homogeneous_blur_5x5.jpg" height="300"  ></td>
    </tr> 
    <tr>
+    <td> Gaussian Blur </td>
+     <td>7x7 </td>
+    <td> <img src="figures/selected_gauss_blur_7x7.jpg" height="300"  ></td>
+  </tr>
+  <tr>
+    <td> Median Blur </td>
+    <td> 5x5 </td>
+    <td> <img src="figures/selected_median_blur_5x5.jpg" height="300"  ></td>
+  </tr>
+  <tr>
     <td> Bilateral Filter </td>
-    <td> <img src="figures/input_img_BILATERAL FILTERING_filter_size_21x21.jpg" width="500"  ></td>
+    <td> 31x31 </td>
+    <td> <img src="figures/selected_bilateral_filter_31x31.jpg" height="300"  ></td>
   </tr>
   <tr>
     <td> Non-Local Means Filter </td>
-    <td> <img src="figures/input_img_ NON_LOCAL_MEANS_FILTERING_filter_size_101x101.jpg" width="500"  ></td>
+    <td> 21x21 </td>
+    <td> <img src="figures/input_img_ NON_LOCAL_MEANS_FILTERING_filter_size_101x101.jpg" height="300"  ></td>
   </tr>
 </table>
 

@@ -286,8 +286,24 @@ OpenCV also allows for live video capturing and processing from a connected came
 </table>
 
 
-
 ## 5. Project: Face Detection, Tracking and Recognition
+
+In this section, we will demonstrate the use of Haar cascade face detector implmented in OpenCV to detect and track faces from live stream video stream, Thhe results are illustrated in the figure below.
+
+<table>
+   <tr>
+    <td> Captured Frame</td>
+    <td> Face Detection results  ></td>
+  </tr>
+  <tr>
+    <td> 10</td>
+    <td> <img src="figures/Cascade_Classifier_Tutorial_Result_Haar_1.jpg" height="400"  ></td>
+  </tr>
+  <tr>
+    <td> 100</td>
+    <td> <img src="figures/Cascade_Classifier_Tutorial_Result_Haar_1.jpg" height="400"  ></td>
+  </tr>
+</table>
 
 
 ## 6. Conclusion

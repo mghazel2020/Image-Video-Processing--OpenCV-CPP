@@ -1,10 +1,20 @@
 # Image-Video-Processing-OpenCV-Cpp
 
-## 1. Objective
+## 1 Objective
 
-To demonstrate various image and video processing and applications using OpenCV with C++ API. These applications include reading and visualizing image and video files as well as live video stream, color space conversion, smoothing, denoising, thresholding, edge detection, feature detections. We also demonstrate a quick prototyping of face detection and recognition application using Haar Cascades OpenCV functionalities. 
+To demonstrate various image and video processing and applications using OpenCV with C++ API. These applications include the following:
 
-## 1. Submitted Code
+* Reading and visualizing image and video files as well as live video stream
+* Creating TrackBar to allo the user to interactively select the value sof selected algorithm configuration parameters.
+* Intractive image smoothing and denoising
+* Interactive image thresholding
+* Intreactive edge detection
+* Image features detections
+* Image color space conversion
+* Video processing.
+
+
+## 2 Code
 
 |#                 | File name         |  Description 
 |------------------|-------------------|--------------------|
@@ -21,21 +31,19 @@ To demonstrate various image and video processing and applications using OpenCV 
 |11                 | /code/demo_5.cpp      |OpenCV-C++-API Implementation of the functionalities for live video stream processing |
 |12                 | /code/demo_6.cpp      |OpenCV-C++-API Implementation of the functionalities of a Project: Face Detection, Tracking and Recognition |
 
-
 ## 2. OpenCV Installation and Visual Studio Project Setup
 
 * The latest OpenCV version with C++ API can be downloaded from [opencv.org](https://opencv.org/releases/).
 
 * Step by step detailed instructions of configuaring the latest download OpenCv for Windows version (OpenCV – 4.5.1) for Visual Studio 2019 Project (Microsoft Visual Studio Community 2019 Version 16.9.0) can be found: [here](https://medium.com/@subwaymatch/opencv-410-with-vs-2019-3d0bc0c81d96)
 
-## 3. Image Processing 
-
 In this section, we shall illustrate the output of several basic image processing OpenCV built-in functionalties. 
+
+## 3 Image Processing
 
 ### 3.1 Loading, Visualizing and Saving Images
 
 We shall use the commonly used input image of Lena, as illustrated next.
-
 
 <div class="row">
   <div class="column">
@@ -43,6 +51,9 @@ We shall use the commonly used input image of Lena, as illustrated next.
   </div>
 </div>
 
+### 3.2 OpenCV User Interface: TrackBar 
+
+* TBD
 
 #### 3.2 Image Smoothing and Denoising 
 
@@ -262,7 +273,7 @@ In many applications, the RGB color space may not be suitable and a color conver
 </table>
 
 
-## 4. Live Video Stream Processing
+## 4 Live Video Stream Processing
 
 OpenCV also allows for live video capturing and processing from a connected camera, such as the computer camera. Omce a frame is captured, it can be processing individually as an image using tupical image processing operations, as illustrated next.
 
@@ -285,28 +296,9 @@ OpenCV also allows for live video capturing and processing from a connected came
   </tr>
 </table>
 
-
-## 5. Project: Face Detection, Tracking and Recognition
-
-In this section, we will demonstrate the use of Haar cascade face detector implmented in OpenCV to detect and track faces from live stream video stream, Thhe results are illustrated in the figure below.
-
-<table>
-   <tr>
-    <td> Captured Frame</td>
-    <td> Face Detection results  ></td>
-  </tr>
-  <tr>
-    <td> 10</td>
-    <td> <img src="figures/Cascade_Classifier_Tutorial_Result_Haar_1.jpg" height="400"  ></td>
-  </tr>
-  <tr>
-    <td> 100</td>
-    <td> <img src="figures/Cascade_Classifier_Tutorial_Result_Haar_1.jpg" height="400"  ></td>
-  </tr>
-</table>
-
-
 ## 6. Conclusion
+
+* TBD
 
 
 

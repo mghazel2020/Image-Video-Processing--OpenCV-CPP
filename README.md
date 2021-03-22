@@ -273,7 +273,7 @@ In many applications, the RGB color space may not be suitable and a color conver
 </table>
 
 
-## 4 Live Video Stream Processing
+## 4 Video Processing
 
 OpenCV also allows for live video capturing and processing from a connected camera, such as the computer camera. Omce a frame is captured, it can be processing individually as an image using tupical image processing operations, as illustrated next.
 

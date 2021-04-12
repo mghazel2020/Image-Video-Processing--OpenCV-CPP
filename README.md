@@ -93,7 +93,7 @@ We explored the performnce of the following OpenCV built-in image smoothing a;lg
   </tr>
   <tr>
     <td> Bilateral Filter </td>
-    <td> 31x31 </td>
+    <td> 21x21 </td>
     <td> <img src="figures/selected_bilateral_filter_31x31.jpg" height="300"  ></td>
   </tr>
   <tr>

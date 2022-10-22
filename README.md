@@ -1,4 +1,4 @@
-# Image-Video-Processing-OpenCV-CPP
+# Image & Video Processing using OpenCV-C++
 
 
 # 1. Objective

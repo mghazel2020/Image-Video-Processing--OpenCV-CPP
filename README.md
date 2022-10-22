@@ -1,6 +1,7 @@
-# Image-Video-Processing-OpenCV-Cpp
+# Image-Video-Processing-OpenCV-CPP
 
-## 1 Objective
+
+# 1. Objective
 
 To demonstrate various image and video processing and applications using OpenCV with C++ API. These applications include the following:
 
@@ -13,7 +14,8 @@ To demonstrate various image and video processing and applications using OpenCV 
 * Image color space conversion
 * Live stream video processing.
 
-## 2. OpenCV Installation and Visual Studio Project Setup
+
+# 2. OpenCV Installation and Visual Studio Project Setup
 
 * The latest OpenCV version with C++ API can be downloaded from [opencv.org](https://opencv.org/releases/).
 
@@ -21,9 +23,10 @@ To demonstrate various image and video processing and applications using OpenCV 
 
 In this section, we shall illustrate the output of several basic image processing OpenCV built-in functionalties. 
 
-## 3 Image Processing
 
-### 3.1 Loading, Visualizing and Saving Images
+# 3. Image Processing
+
+## 3.1. Loading, Visualizing and Saving Images
 
 We shall use the commonly used input image of Lena, as illustrated next.
 
@@ -33,7 +36,7 @@ We shall use the commonly used input image of Lena, as illustrated next.
   </div>
 </div>
 
-### 3.2 Image thresholding
+## 3.2. Image thresholding
 
 OpenCV offers the function threshold to perform thresholding operations. We can effectuate 5 types of Thresholding operations with this function, as illuatred [here](https://www.docs.opencv.org/2.4/doc/tutorials/imgproc/threshold/threshold.html?highlight=basic%20thresholding%20operations):
 
@@ -80,7 +83,7 @@ The figure below illustrates the results for the different thresholding operatio
 </table>
 
 
-#### 3.3 Image Smoothing and Denoising 
+### 3.3. Image Smoothing and Denoising 
 
 We explored the performnce of the following OpenCV built-in image smoothing a;lgorithms:
 * Homogenous bluring
@@ -128,7 +131,7 @@ We explored the performnce of the following OpenCV built-in image smoothing a;lg
   </tr>
 </table>
 
-### 3.4 Edge Detection
+## 3.4. Edge Detection
 
 The Canny Edge detector is a commonly used edge detector and aims to satisfy three main criteria:
 
@@ -164,7 +167,7 @@ The figure below illustrates the Canny edge detection results for the different 
   </tr>
 </table>
 
-### 3.5 Features Detection
+## 3.5. Features Detection
 
 In computer vision, usually we need to find matching points between different frames of an environment. Why? If we know how two images relate to each other, we can use both images to extract information of them. When we say matching points we are referring, in a general sense, to characteristics in the scene that we can recognize easily. We call these characteristics features.
 
@@ -174,7 +177,7 @@ In this section, we shall illustrate the detection of threel image features that
 * Circles
 * Corners
 
-### 3.5.1  Line Detection
+### 3.5.1.  Line Detection
 
 Lines are important image features and the need for their detection rises in several applications. The figure below illustrates the result of the line deiection using Hough Transform function built-in OpenCV.
 
@@ -184,8 +187,7 @@ Lines are important image features and the need for their detection rises in sev
   </div>
 </div>
 
-
-### 3.5.2  Circle Detection
+### 3.5.2.  Circle Detection
 
 Circles are also important image features and the need for their detection rises in several applications. The figure below illustrates the result of the circle deiection using Hough Transform function built-in OpenCV.
 
@@ -195,7 +197,7 @@ Circles are also important image features and the need for their detection rises
   </div>
 </div>
 
-### 3.5.3  Corner Detection
+### 3.5.3.  Corner Detection
 
 Corners can be detected using the Harris corner detector in OpenCV. We created a Bar Tracker to allow us to filter out the corner detection results based on thier magniture. Only detection vectors with magnitures larger the user selected threshold are display. The figure below illustrates sample results with different user selected threshold values.
 
@@ -215,7 +217,7 @@ Corners can be detected using the Harris corner detector in OpenCV. We created a
 </table>
 
 
-### 3.6 Color Space Conversion
+## 3.6. Color Space Conversion
 
 In many applications, the RGB color space may not be suitable and a color conversion will have to be applied to transform an RGB image to another color space. Next, we demonstrate the following commonly encountered color conversions oprations:
 
@@ -252,7 +254,7 @@ In many applications, the RGB color space may not be suitable and a color conver
 </table>
 
 
-## 3.7 Video Processing
+## 3.7. Video Processing
 
 OpenCV also allows for live video capturing and processing from a connected camera, such as the computer camera. Omce a frame is captured, it can be processing individually as an image using tupical image processing operations, as illustrated next.
 
@@ -275,15 +277,18 @@ OpenCV also allows for live video capturing and processing from a connected came
   </tr>
 </table>
 
+
 # 4. Analysis
 
 In this project, we implemented and illustrated various standard image processing operations and algorithms, using OpenCV-C++. OpenCV is a comprehensive image processing and computer vision library, with a wide variety of useful basic and advanced image processing algorithms and tools, which are very useful for quick prototyping and even developing production code and software tools. I make use of OpenCV whenever possible, using its C++ or Python API. 
 
-# 4. Future Work
+
+# 5. Future Work
 
 We plan to continue to implement and illustrate additional image processing algorithms using OpenCV C++.
 
-# 5. References
+
+# 6. References
 
 * OpenCV. (April 16, 2021). Basic Thresholding Operations. https://docs.opencv.org/3.4/db/d8e/tutorial_threshold.html
 * OpenCV. (April 16, 2021). Smoothing Images.  https://docs.opencv.org/3.4/dc/dd3/tutorial_gausian_median_blur_bilateral_filter.html 

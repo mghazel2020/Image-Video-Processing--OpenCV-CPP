@@ -1,5 +1,10 @@
 # Image & Video Processing using OpenCV-C++ API:
 
+<div class="row">
+  <div class="column">
+    <img align="center" height="200" src="figures/opencv-cpp.webp">
+  </div>
+</div>
 
 ## 1. Objective
 

@@ -11,7 +11,7 @@ To demonstrate various image and video processing and applications using OpenCV 
 * Intreactive edge detection
 * Image features detections
 * Image color space conversion
-* Video processing.
+* Live stream video processing.
 
 
 ## 2 Code

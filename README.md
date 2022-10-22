@@ -13,24 +13,6 @@ To demonstrate various image and video processing and applications using OpenCV 
 * Image color space conversion
 * Live stream video processing.
 
-
-## 2 Code
-
-|#                 | File name         |  Description 
-|------------------|-------------------|--------------------|
-|1                 | /code/demo_3_1.cpp      |OpenCV-C++-API Implementation of the functionalities for the visualizing, loading and saving images.  |
-|2                 | /code/demo_3_2.cpp      |OpenCV-C++-API Implementation of the functionalities for smoothing images |
-|3                 | /code/demo_3_3.cpp    |OpenCV-C++-API Implementation of the functionalities for denoising images |
-|4                 | /code/demo_3_4.cpp      |OpenCV-C++-API Implementation of the functionalities for thresholding images  |
-|5                 | /code/demo_3_5.cpp      |OpenCV-C++-API Implementation of the functionalities for detecting edges in images  |
-|6                 | /code/demo_3_6.cpp      |OpenCV-C++-API Implementation of the functionalities for converting images to different color spaces.|
-|7                 | /code/demo_3_7.cpp      |OpenCV-C++-API Implementation of the functionalities for blending images  |
-|8                 | /code/demo_3_8.cpp      |OpenCV-C++-API Implementation of the functionalities for detecting features from images  |
-|9                 | /code/demo_3_9.cpp      |OpenCV-C++-API Implementation of the functionalities for blending two images together. |
-|10                 | /code/demo_4.cpp      |OpenCV-C++-API Implementation of the functionalities for developing a track bar User Interface (UI) for image processing and user parameters selections  |
-|11                 | /code/demo_5.cpp      |OpenCV-C++-API Implementation of the functionalities for live video stream processing |
-|12                 | /code/demo_6.cpp      |OpenCV-C++-API Implementation of the functionalities of a Project: Face Detection, Tracking and Recognition |
-
 ## 2. OpenCV Installation and Visual Studio Project Setup
 
 * The latest OpenCV version with C++ API can be downloaded from [opencv.org](https://opencv.org/releases/).
@@ -51,11 +33,54 @@ We shall use the commonly used input image of Lena, as illustrated next.
   </div>
 </div>
 
-### 3.2 OpenCV User Interface: TrackBar 
+### 3.2 Image thresholding
 
-* TBD
+OpenCV offers the function threshold to perform thresholding operations. We can effectuate 5 types of Thresholding operations with this function, as illuatred [here](https://www.docs.opencv.org/2.4/doc/tutorials/imgproc/threshold/threshold.html?highlight=basic%20thresholding%20operations):
 
-#### 3.2 Image Smoothing and Denoising 
+* Threshold binary
+* Threshold binary, inverted
+* Truncate
+* Threshold to zero
+* Threshold to Zero, inverted.
+
+The results of the image thresholding are alearly sensitive to the type of applied threshold operation and the value of the selected threshold value. In order to experment with the different combinations of the thresholding type and value, OpenCV allow us to create TrackBar User Interface, which allows the user to select these paramaters settings and automatically generate and display the thresholding results correcting to the user selcted settings.
+
+The figure below illustrates the results for the different thresholding operations, uwing a fixed threshold value of 100.
+<table>
+  <tr>
+    <td> Thresholding Method </td>
+    <td> Thresholding Value</td>
+    <td> Thresholding Results</td>
+   </tr> 
+   <tr>
+    <td>Threshold Binary</td>
+    <td> 100</td>
+    <td> <img src="figures/Threshod_method_0_value_100.JPG" width="500"  ></td>
+  </tr>
+  <tr>
+    <td>Threshold Binary, Inverted</td>
+    <td> 100</td>
+    <td> <img src="figures/Threshod_method_1_value_100.JPG" width="500"  ></td>
+  </tr>
+  <tr>
+    <td>Truncate</td>
+    <td> 100</td>
+    <td> <img src="figures/Threshod_method_2_value_100.JPG" width="500"  ></td>
+  </tr>
+  <tr>
+    <td>Threshold to Zero</td>
+    <td> 100</td>
+    <td> <img src="figures/Threshod_method_3_value_100.JPG" width="500"  ></td>
+  </tr>
+  <tr>
+    <td>Threshold to Zero, Inverted</td>
+    <td> 100</td>
+    <td> <img src="figures/Threshod_method_4_value_100.JPG" width="500"  ></td>
+  </tr>
+</table>
+
+
+#### 3.3 Image Smoothing and Denoising 
 
 We explored the performnce of the following OpenCV built-in image smoothing a;lgorithms:
 * Homogenous bluring
@@ -103,53 +128,7 @@ We explored the performnce of the following OpenCV built-in image smoothing a;lg
   </tr>
 </table>
 
-### 3.4 Image thresholding
-
-OpenCV offers the function threshold to perform thresholding operations. We can effectuate 5 types of Thresholding operations with this function, as illuatred [here](https://www.docs.opencv.org/2.4/doc/tutorials/imgproc/threshold/threshold.html?highlight=basic%20thresholding%20operations):
-
-* Threshold binary
-* Threshold binary, inverted
-* Truncate
-* Threshold to zero
-* Threshold to Zero, inverted.
-
-The results of the image thresholding are alearly sensitive to the type of applied threshold operation and the value of the selected threshold value. In order to experment with the different combinations of the thresholding type and value, OpenCV allow us to create TrackBar User Interface, which allows the user to select these paramaters settings and automatically generate and display the thresholding results correcting to the user selcted settings.
-
-The figure below illustrates the results for the different thresholding operations, uwing a fixed threshold value of 100.
-<table>
-  <tr>
-    <td> Thresholding Method </td>
-    <td> Thresholding Value</td>
-    <td> Thresholding Results</td>
-   </tr> 
-   <tr>
-    <td>Threshold Binary</td>
-    <td> 100</td>
-    <td> <img src="figures/Threshod_method_0_value_100.JPG" width="500"  ></td>
-  </tr>
-  <tr>
-    <td>Threshold Binary, Inverted</td>
-    <td> 100</td>
-    <td> <img src="figures/Threshod_method_1_value_100.JPG" width="500"  ></td>
-  </tr>
-  <tr>
-    <td>Truncate</td>
-    <td> 100</td>
-    <td> <img src="figures/Threshod_method_2_value_100.JPG" width="500"  ></td>
-  </tr>
-  <tr>
-    <td>Threshold to Zero</td>
-    <td> 100</td>
-    <td> <img src="figures/Threshod_method_3_value_100.JPG" width="500"  ></td>
-  </tr>
-  <tr>
-    <td>Threshold to Zero, Inverted</td>
-    <td> 100</td>
-    <td> <img src="figures/Threshod_method_4_value_100.JPG" width="500"  ></td>
-  </tr>
-</table>
-
-### 3.5 Edge Detection
+### 3.4 Edge Detection
 
 The Canny Edge detector is a commonly used edge detector and aims to satisfy three main criteria:
 
@@ -185,7 +164,7 @@ The figure below illustrates the Canny edge detection results for the different 
   </tr>
 </table>
 
-### 3.6 Features Detection
+### 3.5 Features Detection
 
 In computer vision, usually we need to find matching points between different frames of an environment. Why? If we know how two images relate to each other, we can use both images to extract information of them. When we say matching points we are referring, in a general sense, to characteristics in the scene that we can recognize easily. We call these characteristics features.
 
@@ -195,7 +174,7 @@ In this section, we shall illustrate the detection of threel image features that
 * Circles
 * Corners
 
-### 3.6.1  Line Detection
+### 3.5.1  Line Detection
 
 Lines are important image features and the need for their detection rises in several applications. The figure below illustrates the result of the line deiection using Hough Transform function built-in OpenCV.
 
@@ -206,7 +185,7 @@ Lines are important image features and the need for their detection rises in sev
 </div>
 
 
-### 3.6.2  Circle Detection
+### 3.5.2  Circle Detection
 
 Circles are also important image features and the need for their detection rises in several applications. The figure below illustrates the result of the circle deiection using Hough Transform function built-in OpenCV.
 
@@ -216,7 +195,7 @@ Circles are also important image features and the need for their detection rises
   </div>
 </div>
 
-### 3.6.3  Corner Detection
+### 3.5.3  Corner Detection
 
 Corners can be detected using the Harris corner detector in OpenCV. We created a Bar Tracker to allow us to filter out the corner detection results based on thier magniture. Only detection vectors with magnitures larger the user selected threshold are display. The figure below illustrates sample results with different user selected threshold values.
 
@@ -236,7 +215,7 @@ Corners can be detected using the Harris corner detector in OpenCV. We created a
 </table>
 
 
-### 3.7 Color Space Conversion
+### 3.6 Color Space Conversion
 
 In many applications, the RGB color space may not be suitable and a color conversion will have to be applied to transform an RGB image to another color space. Next, we demonstrate the following commonly encountered color conversions oprations:
 
@@ -273,7 +252,7 @@ In many applications, the RGB color space may not be suitable and a color conver
 </table>
 
 
-## 4 Video Processing
+## 3.7 Video Processing
 
 OpenCV also allows for live video capturing and processing from a connected camera, such as the computer camera. Omce a frame is captured, it can be processing individually as an image using tupical image processing operations, as illustrated next.
 
@@ -296,9 +275,23 @@ OpenCV also allows for live video capturing and processing from a connected came
   </tr>
 </table>
 
-## 6. Conclusion
+# 4. Analysis
 
-* TBD
+In this project, we implemented and illustrated various standard image processing operations and algorithms, using OpenCV-C++. OpenCV is a comprehensive image processing and computer vision library, with a wide variety of useful basic and advanced image processing algorithms and tools, which are very useful for quick prototyping and even developing production code and software tools. I make use of OpenCV whenever possible, using its C++ or Python API. 
+
+# 4. Future Work
+
+We plan to continue to implement and illustrate additional image processing algorithms using OpenCV C++.
+
+# 5. References
+
+* OpenCV. (April 16, 2021). Basic Thresholding Operations. https://docs.opencv.org/3.4/db/d8e/tutorial_threshold.html
+* OpenCV. (April 16, 2021). Smoothing Images.  https://docs.opencv.org/3.4/dc/dd3/tutorial_gausian_median_blur_bilateral_filter.html 
+* OpenCV. (April 16, 2021). Canny Edge Detector. https://docs.opencv.org/3.4/da/d5c/tutorial_canny_detector.html 
+* OpenCV. (April 16, 2021). Hough Line Transform. https://docs.opencv.org/3.4/d9/db0/tutorial_hough_lines.html 
+* OpenCV. (April 16, 2021). Hough Circle Transform. https://docs.opencv.org/3.4/d4/d70/tutorial_hough_circle.html 
+* OpenCV. (April 16, 2021). Color Conversions. https://docs.opencv.org/3.4/de/d25/imgproc_color_conversions.html 
+* OpenCV. (April 16, 2021). cv::VideoCapture Class Reference.  https://docs.opencv.org/master/d8/dfe/classcv_1_1VideoCapture.html
 
 
 

@@ -3,7 +3,7 @@
 
 # 1. Objective
 
-To demonstrate various image and video processing and applications using OpenCV with C++ API. These applications include the following:
+To demonstrate various image and video processing applications using OpenCV with C++ API. These applications include the following:
 
 * Reading and visualizing image and video files as well as live video stream
 * Creating TrackBar to allo the user to interactively select the value sof selected algorithm configuration parameters.
@@ -18,7 +18,6 @@ To demonstrate various image and video processing and applications using OpenCV 
 # 2. OpenCV Installation and Visual Studio Project Setup
 
 * The latest OpenCV version with C++ API can be downloaded from [opencv.org](https://opencv.org/releases/).
-
 * Step by step detailed instructions of configuaring the latest download OpenCv for Windows version (OpenCV – 4.5.1) for Visual Studio 2019 Project (Microsoft Visual Studio Community 2019 Version 16.9.0) can be found: [here](https://medium.com/@subwaymatch/opencv-410-with-vs-2019-3d0bc0c81d96)
 
 In this section, we shall illustrate the output of several basic image processing OpenCV built-in functionalties. 

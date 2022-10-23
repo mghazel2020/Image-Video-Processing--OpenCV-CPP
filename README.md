@@ -1,4 +1,4 @@
-# Image & Video Processing using OpenCV-C++ API:
+# Image & Video Processing using OpenCV with C++ API:
 
 <div class="row">
   <div class="column">
@@ -294,19 +294,11 @@ We plan to continue to implement and illustrate additional image processing algo
 
 ## 6. References
 
-* OpenCV. (April 16, 2021). Basic Thresholding Operations. https://docs.opencv.org/3.4/db/d8e/tutorial_threshold.html
-* OpenCV. (April 16, 2021). Smoothing Images.  https://docs.opencv.org/3.4/dc/dd3/tutorial_gausian_median_blur_bilateral_filter.html 
-* OpenCV. (April 16, 2021). Canny Edge Detector. https://docs.opencv.org/3.4/da/d5c/tutorial_canny_detector.html 
-* OpenCV. (April 16, 2021). Hough Line Transform. https://docs.opencv.org/3.4/d9/db0/tutorial_hough_lines.html 
-* OpenCV. (April 16, 2021). Hough Circle Transform. https://docs.opencv.org/3.4/d4/d70/tutorial_hough_circle.html 
-* OpenCV. (April 16, 2021). Color Conversions. https://docs.opencv.org/3.4/de/d25/imgproc_color_conversions.html 
-* OpenCV. (April 16, 2021). cv::VideoCapture Class Reference.  https://docs.opencv.org/master/d8/dfe/classcv_1_1VideoCapture.html
-
-
-
-
-
-
-
-
+* OpenCV. Basic Thresholding Operations. Retrieved from: https://docs.opencv.org/3.4/db/d8e/tutorial_threshold.html (Oct 2nd, 2021). 
+* OpenCV. Smoothing Images. Retrieved from: https://docs.opencv.org/3.4/dc/dd3/tutorial_gausian_median_blur_bilateral_filter.html (Oct 2nd, 2021). 
+* OpenCV. Canny Edge Detector. Retrieved from: https://docs.opencv.org/3.4/da/d5c/tutorial_canny_detector.html (Oct 2nd, 2021).
+* OpenCV. Hough Line Transform. Retrieved from: https://docs.opencv.org/3.4/d9/db0/tutorial_hough_lines.html (Oct 2nd, 2021).
+* OpenCV. Hough Circle Transform. Retrieved from: https://docs.opencv.org/3.4/d4/d70/tutorial_hough_circle.html (Oct 2nd, 2021).
+* OpenCV. Color Conversions. Retrieved from: https://docs.opencv.org/3.4/de/d25/imgproc_color_conversions.html (Oct 2nd, 2021).
+* OpenCV. Retrieved from: cv::VideoCapture Class Reference.  https://docs.opencv.org/master/d8/dfe/classcv_1_1VideoCapture.html (Oct 2nd, 2021).
 

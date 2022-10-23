@@ -1,8 +1,8 @@
-# Image & Video Processing using OpenCV with C++ API:
+# Image & Video Processing using OpenCV-C++
 
 <div class="row">
   <div class="column">
-    <img align="center" width="600" src="figures/opencv-cpp.webp">
+    <img align="center" width="400" src="figures/opencv-cpp.webp">
   </div>
 </div>
 
@@ -294,11 +294,11 @@ We plan to continue to implement and illustrate additional image processing algo
 
 ## 6. References
 
-* OpenCV. Basic Thresholding Operations. Retrieved from: https://docs.opencv.org/3.4/db/d8e/tutorial_threshold.html (Oct 2nd, 2021). 
-* OpenCV. Smoothing Images. Retrieved from: https://docs.opencv.org/3.4/dc/dd3/tutorial_gausian_median_blur_bilateral_filter.html (Oct 2nd, 2021). 
-* OpenCV. Canny Edge Detector. Retrieved from: https://docs.opencv.org/3.4/da/d5c/tutorial_canny_detector.html (Oct 2nd, 2021).
-* OpenCV. Hough Line Transform. Retrieved from: https://docs.opencv.org/3.4/d9/db0/tutorial_hough_lines.html (Oct 2nd, 2021).
-* OpenCV. Hough Circle Transform. Retrieved from: https://docs.opencv.org/3.4/d4/d70/tutorial_hough_circle.html (Oct 2nd, 2021).
-* OpenCV. Color Conversions. Retrieved from: https://docs.opencv.org/3.4/de/d25/imgproc_color_conversions.html (Oct 2nd, 2021).
-* OpenCV. Retrieved from: cv::VideoCapture Class Reference.  https://docs.opencv.org/master/d8/dfe/classcv_1_1VideoCapture.html (Oct 2nd, 2021).
+1. OpenCV. Basic Thresholding Operations. Retrieved from: https://docs.opencv.org/3.4/db/d8e/tutorial_threshold.html (Oct 2nd, 2021). 
+2. OpenCV. Smoothing Images. Retrieved from: https://docs.opencv.org/3.4/dc/dd3/tutorial_gausian_median_blur_bilateral_filter.html (Oct 2nd, 2021). 
+3. OpenCV. Canny Edge Detector. Retrieved from: https://docs.opencv.org/3.4/da/d5c/tutorial_canny_detector.html (Oct 2nd, 2021).
+4. OpenCV. Hough Line Transform. Retrieved from: https://docs.opencv.org/3.4/d9/db0/tutorial_hough_lines.html (Oct 2nd, 2021).
+5. OpenCV. Hough Circle Transform. Retrieved from: https://docs.opencv.org/3.4/d4/d70/tutorial_hough_circle.html (Oct 2nd, 2021).
+6. OpenCV. Color Conversions. Retrieved from: https://docs.opencv.org/3.4/de/d25/imgproc_color_conversions.html (Oct 2nd, 2021).
+7. OpenCV. Retrieved from: cv::VideoCapture Class Reference.  https://docs.opencv.org/master/d8/dfe/classcv_1_1VideoCapture.html (Oct 2nd, 2021).
 

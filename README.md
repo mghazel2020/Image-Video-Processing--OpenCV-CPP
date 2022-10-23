@@ -294,11 +294,11 @@ We plan to continue to implement and illustrate additional image processing algo
 
 ## 6. References
 
-1. OpenCV. Basic Thresholding Operations. Retrieved from: https://docs.opencv.org/3.4/db/d8e/tutorial_threshold.html (Oct 2nd, 2021). 
-2. OpenCV. Smoothing Images. Retrieved from: https://docs.opencv.org/3.4/dc/dd3/tutorial_gausian_median_blur_bilateral_filter.html (Oct 2nd, 2021). 
-3. OpenCV. Canny Edge Detector. Retrieved from: https://docs.opencv.org/3.4/da/d5c/tutorial_canny_detector.html (Oct 2nd, 2021).
-4. OpenCV. Hough Line Transform. Retrieved from: https://docs.opencv.org/3.4/d9/db0/tutorial_hough_lines.html (Oct 2nd, 2021).
-5. OpenCV. Hough Circle Transform. Retrieved from: https://docs.opencv.org/3.4/d4/d70/tutorial_hough_circle.html (Oct 2nd, 2021).
-6. OpenCV. Color Conversions. Retrieved from: https://docs.opencv.org/3.4/de/d25/imgproc_color_conversions.html (Oct 2nd, 2021).
-7. OpenCV. Retrieved from: cv::VideoCapture Class Reference.  https://docs.opencv.org/master/d8/dfe/classcv_1_1VideoCapture.html (Oct 2nd, 2021).
+1. OpenCV. Basic Thresholding Operations. Retrieved from: https://docs.opencv.org/3.4/db/d8e/tutorial_threshold.html (October 2nd, 2022). 
+2. OpenCV. Smoothing Images. Retrieved from: https://docs.opencv.org/3.4/dc/dd3/tutorial_gausian_median_blur_bilateral_filter.html (October 2nd, 2022). 
+3. OpenCV. Canny Edge Detector. Retrieved from: https://docs.opencv.org/3.4/da/d5c/tutorial_canny_detector.html (October 2nd, 2022).
+4. OpenCV. Hough Line Transform. Retrieved from: https://docs.opencv.org/3.4/d9/db0/tutorial_hough_lines.html (October 2nd, 2022).
+5. OpenCV. Hough Circle Transform. Retrieved from: https://docs.opencv.org/3.4/d4/d70/tutorial_hough_circle.html (October 2nd, 2022).
+6. OpenCV. Color Conversions. Retrieved from: https://docs.opencv.org/3.4/de/d25/imgproc_color_conversions.html (October 2nd, 2022).
+7. OpenCV. Retrieved from: cv::VideoCapture Class Reference.  https://docs.opencv.org/master/d8/dfe/classcv_1_1VideoCapture.html (October 2nd, 2022).
 

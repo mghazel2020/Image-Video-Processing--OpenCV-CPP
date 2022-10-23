@@ -2,7 +2,7 @@
 
 <div class="row">
   <div class="column">
-    <img align="center" width="400" src="figures/opencv-cpp.webp">
+    <img align="center" width="500" src="figures/opencv-cpp.webp">
   </div>
 </div>
 
